@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.DataAccess.Config
 {
-    public class StoreConfig : IEntityTypeConfiguration<Store>
+      public class StoreConfig : IEntityTypeConfiguration<Store>
     {
         public void Configure(EntityTypeBuilder<Store> builder) 
         { 
