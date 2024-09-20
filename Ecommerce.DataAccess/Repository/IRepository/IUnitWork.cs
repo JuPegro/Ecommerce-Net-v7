@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.DataAccess.Repository.IRepository
 {
-    internal interface IUnitWork
+    public interface IUnitWork : IDisposable
     {
+        IStoreRepository Store { get; }
+
+        Task Save();
     }
 }

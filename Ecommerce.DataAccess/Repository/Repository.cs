@@ -29,7 +29,7 @@ namespace Ecommerce.DataAccess.Repository
             await dbSet.AddAsync(entity); // INSERT INTO 
         }
 
-        public async Task<T> Get(int id)
+        public async Task<T> Get(Guid id)
         {
             return await dbSet.FindAsync(id); // SELECT * FROM [ID]
         }

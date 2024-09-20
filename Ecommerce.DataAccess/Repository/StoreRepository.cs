@@ -13,7 +13,7 @@ namespace Ecommerce.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;
 
-        public StoreRepository( ApplicationDbContext db) : base(db)
+        public StoreRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }

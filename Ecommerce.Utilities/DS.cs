@@ -8,6 +8,7 @@ namespace Ecommerce.Utilities
 {
     public static class DS
     {
-
+        public const string Successfully = "Successfully";
+        public const string Error = "Error";
     }
 }
